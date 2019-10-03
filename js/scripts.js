@@ -6,7 +6,6 @@ var factorial = function(number) {
   return number * factorial(number - 1)
 }
 
-
 $(document).ready(function() {
   $('form#leap-year').submit(function(event){
     var number = parseInt($('input#number').val());
